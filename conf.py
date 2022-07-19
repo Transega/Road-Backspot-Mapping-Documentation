@@ -22,7 +22,7 @@ today = date.today()
 
 # -- Project information -----------------------------------------------------
 
-project = 'Road Blackspot Mapping'
+project = 'Road Blackspot Mapping Admin Manual'
 copyright = '2022, LocateIT'
 author = 'LocateIT'
 
