@@ -17,14 +17,16 @@ from datetime import date
 sys.path.insert(0, os.path.abspath('..'))
 today = date.today()
 
+year = today.year
+
 
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'Road Blackspot Mapping Admin Manual'
-copyright = '2022, LocateIT'
-author = 'LocateIT'
+copyright = str(year)+', St. Johns Ambulance'
+author = 'St. Johns Ambulance'
 
 # The full version, including alpha/beta/rc tags
 release = 'V01'

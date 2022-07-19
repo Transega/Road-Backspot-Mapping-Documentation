@@ -11,11 +11,11 @@ subsequent versions of the platform.
 Project Implemetation
 #####################
 
-The project was Implemetated by LocateIT Limited 
+The project was Implemetated by 
 
-##########
+
 Tech Stack
-##########
+----------
 Tech stack means the technologies used in the development of the GIS enabled web portal (Geoportal)
 
 The system encompases of two segments the back-end and the frontend;
