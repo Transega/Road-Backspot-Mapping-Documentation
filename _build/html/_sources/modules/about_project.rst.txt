@@ -11,7 +11,7 @@ subsequent versions of the platform.
 Project Implemetation
 #####################
 
-The project was Implemetated by 
+The project was Implemetated by St. Johns Ambulance
 
 
 Tech Stack
