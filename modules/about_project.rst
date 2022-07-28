@@ -61,7 +61,60 @@ Instructions on how to access the server will be given on a separate forum to be
 
 Adding user from the Admin dashboard is pretty easy the following steps are followed to do so:
 
-a. 
+a. log into the dashboard 
+
+.. image:: ../Images/login.png
+    :alt: Admin panel login
+
+.. figure:: ../Images/admin_dashboard.png
+    :alt: Admin panel outlook
+
+b. click on the users tab
+
+.. figure:: ../Images/users.png
+    :alt: Users 
+
+
+.. figure:: ../Images/user_dialog.png
+    :alt: Click on ADD USER +
+
+c. Add the user information and save
+
+.. image:: ../Images/adding_user.png
+    :alt: adding user information
+
+**Giving the user additional information and super user status**
+
+
+You may add additional information for the user for instance;
+
+* First name 
+
+* Last name 
+
+* Email address
+
+Give the user active status by clicking the staff status and Super user status. This 
+allows the user to access the admin dashboard. 
+
+.. image:: ../Images/additional_info.png
+
+***************************
+Managing what a user can do 
+***************************
+
+You can limit what users can do by creating user groups and adding users to the group or just by adding user permmisions for 
+each user.
+
+Adding user permmisions in groups will help in whether a user can add, delete or modify data. 
+
+.. image:: ../Images/userpermissions.png
+
+
+
+
+
+
 
 
 .. _Crash Dashboard Admin: http://45.63.48.25:8080/admin/
