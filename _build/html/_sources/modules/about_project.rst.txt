@@ -112,9 +112,60 @@ Adding user permmisions in groups will help in whether a user can add, delete or
 
 
 
+Adding Data
+-----------
+
+There are three data models:
+
+* Blackspots
+
+* Pictures 
+
+* and Videos
+
+**The three models are responsible for holding the datasets in the database.**
+
+*The Blackspots Module holds data for the blackspot points.*
+
+*The Pictures and Videos Modules holds the data for the pictures for various blackspot locations.*
+
+To add data one needs to click on the module and provide information that is required, in the event that the data is bulky
+upon request customizations may be made to allow for the datasets to be uploaded this may attract administrative actions on by the 
+respective organizations on the same. 
+
+However, at the moment automation has been made to allow the admin users to uplaod pictures that are zipped and the system will unzip and ingest into the database.
+
+It is important to note that the Blackspot data have other information together with county name and the backsport name, the Pictures and Videos date also have the county
+and the blackspot name. This helps to correctly link the two for visualization, therefore while uploading the picture it is important to add;
+
+a. picture name 
+
+b. category 
+
+c. Blackspot name 
+
+d. county 
+
+c. choose the file 
+
+.. image:: /Images/adding_pic.png
+
+Pictures of a blackspot may be added, for various reasons. if a blackspot point exists in the database,
+adding another picture with the blackspot name will add more pictures that can be seen in the front end and also from the 
+preview images in the admin dashboard. 
+
+Adding multiple pictures of an existing blackpot has been automaated and one can simply zip the picture and have the zip file name same as that one 
+of the blackspot and use the upload zipfile tab on the `dashboard`_ to do so. 
+
+.. image:: /Images/adding_zip_pic.png
+
+Choose file to upload
+
+.. image:: /Images/upload_zip.png
 
 
 
+.. _dashboard: http://45.63.48.25:8080/admin/dashboard/pictures/upload-csv/
 
 
 .. _Crash Dashboard Admin: http://45.63.48.25:8080/admin/

@@ -48,6 +48,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#managing-what-a-user-can-do">Managing what a user can do</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-data">Adding Data</a></li>
 </ul>
 </li>
 </ul>
@@ -153,6 +154,42 @@ each user.</p>
 <p>Adding user permmisions in groups will help in whether a user can add, delete or modify data.</p>
 <img alt="../_images/userpermissions.png" src="../_images/userpermissions.png" />
 </section>
+</section>
+<section id="adding-data">
+<h2>Adding Data<a class="headerlink" href="#adding-data" title="Permalink to this heading"></a></h2>
+<p>There are three data models:</p>
+<ul class="simple">
+<li><p>Blackspots</p></li>
+<li><p>Pictures</p></li>
+<li><p>and Videos</p></li>
+</ul>
+<p><strong>The three models are responsible for holding the datasets in the database.</strong></p>
+<p><em>The Blackspots Module holds data for the blackspot points.</em></p>
+<p><em>The Pictures and Videos Modules holds the data for the pictures for various blackspot locations.</em></p>
+<p>To add data one needs to click on the module and provide information that is required, in the event that the data is bulky
+upon request customizations may be made to allow for the datasets to be uploaded this may attract administrative actions on by the
+respective organizations on the same.</p>
+<p>However, at the moment automation has been made to allow the admin users to uplaod pictures that are zipped and the system will unzip and ingest into the database.</p>
+<p>It is important to note that the Blackspot data have other information together with county name and the backsport name, the Pictures and Videos date also have the county
+and the blackspot name. This helps to correctly link the two for visualization, therefore while uploading the picture it is important to add;</p>
+<ol class="loweralpha simple">
+<li><p>picture name</p></li>
+<li><p>category</p></li>
+<li><p>Blackspot name</p></li>
+<li><p>county</p></li>
+</ol>
+<ol class="loweralpha simple" start="3">
+<li><p>choose the file</p></li>
+</ol>
+<img alt="../_images/adding_pic.png" src="../_images/adding_pic.png" />
+<p>Pictures of a blackspot may be added, for various reasons. if a blackspot point exists in the database,
+adding another picture with the blackspot name will add more pictures that can be seen in the front end and also from the
+preview images in the admin dashboard.</p>
+<p>Adding multiple pictures of an existing blackpot has been automaated and one can simply zip the picture and have the zip file name same as that one
+of the blackspot and use the upload zipfile tab on the <a class="reference external" href="http://45.63.48.25:8080/admin/dashboard/pictures/upload-csv/">dashboard</a> to do so.</p>
+<img alt="../_images/adding_zip_pic.png" src="../_images/adding_zip_pic.png" />
+<p>Choose file to upload</p>
+<img alt="../_images/upload_zip.png" src="../_images/upload_zip.png" />
 </section>
 </section>
 
