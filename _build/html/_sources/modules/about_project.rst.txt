@@ -7,6 +7,8 @@ were visited in a web portal. This documentation is to help the system admininst
 subsequent versions of the platform. 
 
 
+
+
 #####################
 Project Implemetation
 #####################
@@ -27,6 +29,10 @@ The system encompases of two segments the back-end and the frontend;
 The Backend which this manual will be more focused on, was Implemetated using python language using the Django Framework.
 
 The Frontend on the other hand was implemented using JavaScript language using the Vue Framework. 
+
+**System components Diagram**
+
+.. image:: ../Images/Sub-components.png
 
 
 System Administration
